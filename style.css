@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #181818;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    gap: 30px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    background-color: #181818;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 20px;
+}
+.loko{
+    width: 250px;
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+}
+.loko button:nth-child(1){
+    background-color: #4452FE;
+    color: white;
+    padding: 8px 20px;
+}
+.hero{
+    text-align: center;
+    
+}
+.hero_top h1{
+    font-size: 50px;
+    width: 450px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+.hero_top p{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+header{
+    background-image: url(./imgs/screens.png);
+    background-size: 100%; 
+    padding-bottom: 850px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.blok img{
+    font-size: 100px;
+}
+.koko{
+    text-align: center;
+    
+}
+
+.koko h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-weight: 300;
+}
+.koko p{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.joko{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.lopo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.box p{
+    margin-bottom: 100px ;
+}
+.dars{
+    display: flex;
+    align-items: center;   
+}
+.bars{
+    display: none;
+}
+main{
+    margin-top: 200px;
+    background-color: #191919;
+    padding: 20px 0px;
+}
+.hero_img{
+    display: block;
+}
+.hero1_im{
+    display: none;
+}
+.top{
+    text-align: center;
+    margin-top: 100px;
+}
+.top h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.top p{
+    width: 440px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.cards{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+   flex-wrap: wrap;
+}
+.card{
+    color: black;
+    width: 450px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+.card h3{
+    margin-bottom: 30px;
+}
+.card p{
+    width: 250px;
+   margin: 0 auto;
+   margin-bottom: 70px;
+}
+.card button{
+    padding: 10px 20px;
+    background-color: #4452FE;
+    border: none;
+    color: white;
+    margin-bottom: 50px;
+}
+.card1{
+    color: black;
+    width: 450px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+.card1 h3{
+    margin-bottom: 30px;
+}
+.card1 p{
+    width: 250px;
+   margin: 0 auto;
+   margin-bottom: 40px;
+}
+.card1 button{
+    padding: 10px 20px;
+    background-color: #4452FE;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.card1 img{
+    width: 400px;
+}
+.galery{
+    margin-top: 100px;
+    text-align: center;
+}
+.galery h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.galery p{
+    width: 440px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.img1 img{
+    border-radius: 10px;
+}
+.img2{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.img2 img{
+    border-radius: 10px;
+}
+.img3{
+    display: none;
+    margin: 0 auto;
+}
+.mojo{
+    text-align: center;
+}
+.mojo button{
+    padding: 10px 20px;
+    background-color: #323232;
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+.partners{
+    text-align: center;
+}
+.partners h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.partners p{
+    width: 440px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.boxses{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.Testimonials{
+    text-align: center;
+}
+.Testimonials h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.gogo{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boxss{
+    width: 430px;
+    border: 2px solid wheat;
+    padding: 30px;
+    border-radius: 10px;
+}
+.lojo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.volfs p{
+    width: 300px;
+}
+.fonts{
+    display: flex;
+    align-items: center;
+    background-color: #464646;
+    border-radius: 20px;
+    margin-top: 300px;
+    gap: 20px;
+    padding: 0px 0px 0px 50px;
+}
+.left h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.left button{
+    padding: 10px 20px;
+    background-color: #4452FE;
+    border: none;
+    color: white;
+}
+.right img{
+    border-radius: 0px 0px 15px 0px;
+    display: block;
+}
+.koko5{
+    display: none;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    flex-wrap: wrap;
+}
+.hoho{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.hoho h4{
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.hoho p{
+    line-height: 30px;
+}
+.volks{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.volks1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.volks2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.kings{
+    width: 100px    ;
+}
+.dosa{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 468px) {
+    .links{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    .dars{
+        display: flex;
+    }
+    .hero_top h1{
+        font-size: 50px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hero_top p{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .loko{
+        flex-direction: column;
+    }
+    .loko{
+        width: 150px;
+    }
+    header{
+        padding-bottom: 250px;
+    }
+    .lopo{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero_img{
+        display: none;
+    }
+    .hero1_im{
+        display: block;
+        margin-bottom: 100px;
+    }
+    .koko p{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .box{
+        justify-content: center;
+    }
+    .card, .card1{
+        width: 300px;
+    }
+    .card1 img{
+        width: 100%;
+    }
+    .card img{
+        width: 100%;
+    }
+    .top p{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    .galery p{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    .img2{
+        display: none;
+    }
+    .img1{
+        display: none;
+    }
+    .img3{
+        display: block;
+        width: 90%;
+        text-align: center;
+
+    }
+    .img3 img{
+        width: 75%;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    .partners p{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    .boxss{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .volfs p{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .right img{
+        width: 100%;
+    }
+    .fonts{
+        margin-top: 80px;
+        text-align: center;
+        padding: 10px;
+        background-color: #2e2e2e;
+    }
+    .kopo{
+        display: block;
+    }
+    .right{
+        display: none;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .left{
+        padding: 10px;
+    }
+    .koko5{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .foot{
+        padding: 30px;
+        margin-top: 50px;
+    }
+    .hoho{
+        margin-bottom: 50px;
+        
+    }
+    .volks{
+        margin-bottom: 20px;
+        
+    }
+    .volks1{
+        margin-bottom: 20px;
+    }
+    .hero_container{
+        background-color: #2e2e2e;
+    }
+    .kings{
+        width: 300px;
+    }
+    .dosa{
+        margin-top: 20px;
+    }
+}
